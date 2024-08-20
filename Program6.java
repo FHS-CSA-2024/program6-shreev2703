@@ -20,10 +20,12 @@ public class Program6 {
         diameter=(diameter/1000);
         circumference=((int)(diameter*1000+0.5));
         circumference=(circumference/1000);
+        area=((int)(area*1000+0.5));
+        area=(area/1000);
         // Print the results, formatted to three decimal places
-        System.out.printf("The Radius of the circle = %.3f%n", radius);
-        System.out.printf("The Diameter of the circle = %.3f%n", diameter);
-        System.out.printf("The Area of the circle = %.3f%n", area);
-        System.out.printf("The Circumference of the circle = %.3f%n", circumference);
+        System.out.println("The Radius of the circle"+" "+radius);
+        System.out.println("The Diameter of the circle"+" "+diameter);
+        System.out.println("The Area of the circle"+" "+area);
+        System.out.println("The Circumference of the circle"+" "+circumference);
     }
 }
