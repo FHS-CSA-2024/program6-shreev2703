@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CircleCalculator {
+public class Program6 {
     public static void main(String[] args) {
         // FINAL variable for pi
         final double PI = 3.14159;
