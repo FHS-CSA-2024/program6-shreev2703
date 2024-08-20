@@ -13,6 +13,13 @@ public class Program6 {
         double diameter = 2 * radius;
         double area = PI * radius * radius;
         double circumference = 2 * PI * radius;
+        //
+        radius=((int)(radius*1000+0.5));
+        radius=(radius/1000);
+        diameter=((int)(diameter*1000+0.5));
+        diameter=(diameter/1000);
+        circumference=((int)(diameter*1000+0.5));
+        circumference=(circumference/1000);
         // Print the results, formatted to three decimal places
         System.out.printf("The Radius of the circle = %.3f%n", radius);
         System.out.printf("The Diameter of the circle = %.3f%n", diameter);
